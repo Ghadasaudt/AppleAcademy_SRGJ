@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740475A52B15FA9000C2B96F /* timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740475A42B15FA9000C2B96F /* timeline.swift */; };
+		744F2D7A2B0CA25A004CCB9B /* SrajApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744F2D792B0CA25A004CCB9B /* SrajApp.swift */; };
+		744F2D7C2B0CA25A004CCB9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744F2D7B2B0CA25A004CCB9B /* ContentView.swift */; };
+		744F2D7E2B0CA25C004CCB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744F2D7D2B0CA25C004CCB9B /* Assets.xcassets */; };
+		744F2D812B0CA25C004CCB9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744F2D802B0CA25C004CCB9B /* Preview Assets.xcassets */; };
+		744F2D8B2B0CA25C004CCB9B /* SrajTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744F2D8A2B0CA25C004CCB9B /* SrajTests.swift */; };
+		744F2D952B0CA25C004CCB9B /* SrajUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744F2D942B0CA25C004CCB9B /* SrajUITests.swift */; };
+		744F2D972B0CA25C004CCB9B /* SrajUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744F2D962B0CA25C004CCB9B /* SrajUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		744F2D872B0CA25C004CCB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 744F2D6E2B0CA25A004CCB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 744F2D752B0CA25A004CCB9B;
+			remoteInfo = Sraj;
+		};
+		744F2D912B0CA25C004CCB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 744F2D6E2B0CA25A004CCB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 744F2D752B0CA25A004CCB9B;
+			remoteInfo = Sraj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740475A42B15FA9000C2B96F /* timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeline.swift; sourceTree = "<group>"; };
+		744F2D762B0CA25A004CCB9B /* Sraj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sraj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		744F2D792B0CA25A004CCB9B /* SrajApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrajApp.swift; sourceTree = "<group>"; };
+		744F2D7B2B0CA25A004CCB9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		744F2D7D2B0CA25C004CCB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		744F2D802B0CA25C004CCB9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		744F2D862B0CA25C004CCB9B /* SrajTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SrajTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		744F2D8A2B0CA25C004CCB9B /* SrajTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrajTests.swift; sourceTree = "<group>"; };
+		744F2D902B0CA25C004CCB9B /* SrajUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SrajUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		744F2D942B0CA25C004CCB9B /* SrajUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrajUITests.swift; sourceTree = "<group>"; };
+		744F2D962B0CA25C004CCB9B /* SrajUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrajUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		744F2D732B0CA25A004CCB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F2D832B0CA25C004CCB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F2D8D2B0CA25C004CCB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		744F2D6D2B0CA25A004CCB9B = {
+			isa = PBXGroup;
+			children = (
+				744F2D782B0CA25A004CCB9B /* Sraj */,
+				744F2D892B0CA25C004CCB9B /* SrajTests */,
+				744F2D932B0CA25C004CCB9B /* SrajUITests */,
+				744F2D772B0CA25A004CCB9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		744F2D772B0CA25A004CCB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				744F2D762B0CA25A004CCB9B /* Sraj.app */,
+				744F2D862B0CA25C004CCB9B /* SrajTests.xctest */,
+				744F2D902B0CA25C004CCB9B /* SrajUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		744F2D782B0CA25A004CCB9B /* Sraj */ = {
+			isa = PBXGroup;
+			children = (
+				740475A42B15FA9000C2B96F /* timeline.swift */,
+				744F2D792B0CA25A004CCB9B /* SrajApp.swift */,
+				744F2D7B2B0CA25A004CCB9B /* ContentView.swift */,
+				744F2D7D2B0CA25C004CCB9B /* Assets.xcassets */,
+				744F2D7F2B0CA25C004CCB9B /* Preview Content */,
+			);
+			path = Sraj;
+			sourceTree = "<group>";
+		};
+		744F2D7F2B0CA25C004CCB9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				744F2D802B0CA25C004CCB9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		744F2D892B0CA25C004CCB9B /* SrajTests */ = {
+			isa = PBXGroup;
+			children = (
+				744F2D8A2B0CA25C004CCB9B /* SrajTests.swift */,
+			);
+			path = SrajTests;
+			sourceTree = "<group>";
+		};
+		744F2D932B0CA25C004CCB9B /* SrajUITests */ = {
+			isa = PBXGroup;
+			children = (
+				744F2D942B0CA25C004CCB9B /* SrajUITests.swift */,
+				744F2D962B0CA25C004CCB9B /* SrajUITestsLaunchTests.swift */,
+			);
+			path = SrajUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		744F2D752B0CA25A004CCB9B /* Sraj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744F2D9A2B0CA25C004CCB9B /* Build configuration list for PBXNativeTarget "Sraj" */;
+			buildPhases = (
+				744F2D722B0CA25A004CCB9B /* Sources */,
+				744F2D732B0CA25A004CCB9B /* Frameworks */,
+				744F2D742B0CA25A004CCB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sraj;
+			productName = Sraj;
+			productReference = 744F2D762B0CA25A004CCB9B /* Sraj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		744F2D852B0CA25C004CCB9B /* SrajTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744F2D9D2B0CA25C004CCB9B /* Build configuration list for PBXNativeTarget "SrajTests" */;
+			buildPhases = (
+				744F2D822B0CA25C004CCB9B /* Sources */,
+				744F2D832B0CA25C004CCB9B /* Frameworks */,
+				744F2D842B0CA25C004CCB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				744F2D882B0CA25C004CCB9B /* PBXTargetDependency */,
+			);
+			name = SrajTests;
+			productName = SrajTests;
+			productReference = 744F2D862B0CA25C004CCB9B /* SrajTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		744F2D8F2B0CA25C004CCB9B /* SrajUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744F2DA02B0CA25C004CCB9B /* Build configuration list for PBXNativeTarget "SrajUITests" */;
+			buildPhases = (
+				744F2D8C2B0CA25C004CCB9B /* Sources */,
+				744F2D8D2B0CA25C004CCB9B /* Frameworks */,
+				744F2D8E2B0CA25C004CCB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				744F2D922B0CA25C004CCB9B /* PBXTargetDependency */,
+			);
+			name = SrajUITests;
+			productName = SrajUITests;
+			productReference = 744F2D902B0CA25C004CCB9B /* SrajUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		744F2D6E2B0CA25A004CCB9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					744F2D752B0CA25A004CCB9B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					744F2D852B0CA25C004CCB9B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 744F2D752B0CA25A004CCB9B;
+					};
+					744F2D8F2B0CA25C004CCB9B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 744F2D752B0CA25A004CCB9B;
+					};
+				};
+			};
+			buildConfigurationList = 744F2D712B0CA25A004CCB9B /* Build configuration list for PBXProject "Sraj" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 744F2D6D2B0CA25A004CCB9B;
+			productRefGroup = 744F2D772B0CA25A004CCB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				744F2D752B0CA25A004CCB9B /* Sraj */,
+				744F2D852B0CA25C004CCB9B /* SrajTests */,
+				744F2D8F2B0CA25C004CCB9B /* SrajUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		744F2D742B0CA25A004CCB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F2D812B0CA25C004CCB9B /* Preview Assets.xcassets in Resources */,
+				744F2D7E2B0CA25C004CCB9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F2D842B0CA25C004CCB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F2D8E2B0CA25C004CCB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		744F2D722B0CA25A004CCB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F2D7C2B0CA25A004CCB9B /* ContentView.swift in Sources */,
+				744F2D7A2B0CA25A004CCB9B /* SrajApp.swift in Sources */,
+				740475A52B15FA9000C2B96F /* timeline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F2D822B0CA25C004CCB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F2D8B2B0CA25C004CCB9B /* SrajTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F2D8C2B0CA25C004CCB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F2D972B0CA25C004CCB9B /* SrajUITestsLaunchTests.swift in Sources */,
+				744F2D952B0CA25C004CCB9B /* SrajUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		744F2D882B0CA25C004CCB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 744F2D752B0CA25A004CCB9B /* Sraj */;
+			targetProxy = 744F2D872B0CA25C004CCB9B /* PBXContainerItemProxy */;
+		};
+		744F2D922B0CA25C004CCB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 744F2D752B0CA25A004CCB9B /* Sraj */;
+			targetProxy = 744F2D912B0CA25C004CCB9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		744F2D982B0CA25C004CCB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		744F2D992B0CA25C004CCB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		744F2D9B2B0CA25C004CCB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sraj/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadah.Sraj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		744F2D9C2B0CA25C004CCB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sraj/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadah.Sraj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		744F2D9E2B0CA25C004CCB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadah.SrajTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sraj.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sraj";
+			};
+			name = Debug;
+		};
+		744F2D9F2B0CA25C004CCB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadah.SrajTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sraj.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sraj";
+			};
+			name = Release;
+		};
+		744F2DA12B0CA25C004CCB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadah.SrajUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sraj;
+			};
+			name = Debug;
+		};
+		744F2DA22B0CA25C004CCB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadah.SrajUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sraj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		744F2D712B0CA25A004CCB9B /* Build configuration list for PBXProject "Sraj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744F2D982B0CA25C004CCB9B /* Debug */,
+				744F2D992B0CA25C004CCB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744F2D9A2B0CA25C004CCB9B /* Build configuration list for PBXNativeTarget "Sraj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744F2D9B2B0CA25C004CCB9B /* Debug */,
+				744F2D9C2B0CA25C004CCB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744F2D9D2B0CA25C004CCB9B /* Build configuration list for PBXNativeTarget "SrajTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744F2D9E2B0CA25C004CCB9B /* Debug */,
+				744F2D9F2B0CA25C004CCB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744F2DA02B0CA25C004CCB9B /* Build configuration list for PBXNativeTarget "SrajUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744F2DA12B0CA25C004CCB9B /* Debug */,
+				744F2DA22B0CA25C004CCB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 744F2D6E2B0CA25A004CCB9B /* Project object */;
+}
